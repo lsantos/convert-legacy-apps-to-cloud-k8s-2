@@ -1,4 +1,4 @@
-version: '1'
+version: '3.7'
 services:
   mysqldb:
     image: "mysql/mysql-server:8.0.20"
