@@ -2,7 +2,7 @@ version: '3.7'
 services:
   mysqldb:
     image: "mysql/mysql-server:8.0.20"
-    restart: always
+    # restart: always
     command: --default-authentication-plugin=mysql_native_password
     environment:
         MYSQL_ROOT_PASSWORD: '123'
